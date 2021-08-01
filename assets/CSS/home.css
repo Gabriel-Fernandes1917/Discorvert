@@ -13,8 +13,8 @@ header{
 }
 
 #bg{
-    grid-area: left
-    backgound: url('/assets/home-bg-img.svg') no-repeat top/contain /* top/contain aling with top and fit in div*/
+    grid-area: left;
+    backgound: url("../assets/IMG/studenticon.png") no-repeat top/contain /* top/contain aling with top and fit in div*/
 }
 
 main{
@@ -41,4 +41,18 @@ input{
     padding: 0 1.6rem;
     height: 5rem;
     border-radius: .8rem;
+}
+
+input, button, .button{
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
+
+.content header{
+    width: 80%;
+    margin: 3.5rem auto;
+}
+
+.content header img{
+    width: 16.7rem;
 }
