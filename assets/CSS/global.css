@@ -27,6 +27,7 @@ html{
 }
 
 body{
+    display: flex;
     height: 100vh; /*vh = view height, 100vh = 100% height the screen*/
     /*width: 100vw; vw = view width, 100vw = 100% width */
     background: var(--background); /*var css*/
