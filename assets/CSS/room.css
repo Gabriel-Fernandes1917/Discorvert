@@ -88,10 +88,67 @@
     padding: .8rem 2.4rem;
 }
 
-.delete{
+
+/***** Questions ****/
+
+.question-wrapper{
+    background:  var(--light-blue);
+    margin-bottom: 0.8rem;
+    border-radius: .8rem .8rem .8rem;
+    padding: 2.4rem;
+}
+
+.question-wrapper .question-content{
+    display: flex;
+    align-items: flex-start; /*'flex-start' aling items with top*/
+}
+
+.question-wrapper .question-content .user{
+    background: var(--blue);
+    clip-path: circle();
+    padding: 1.4rem;
+}
+
+.question-wrapper .question-content p{
+    margin-left: 1rem;
+    word-break: break-word; /*'word-break: break-word;' it suits to when have one word much bigger, not broken leyalt */
+    min-height: 5.5rem;
+}
+
+.question-wrapper .actions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* flex-end position elements in the end */ /*? */
+}
+
+.question-wrapper .actions > a{
+    display: flex;
+    align-items: center;
+}
+
+.question-wrapper .actions > a >img{
+    margin: 1rem;
+}
+
+.question-wrapper .actions > a{
+    display: flex;
+    align-items: center;
+}
+
+.question-wrapper .actions > a + a{
+    margin-left: 2.4rem;
+}
+
+
+/**** Question Read *****/
+
+
+.question-wrapper.read{
+    background: var(--grey-medium);
 
 }
 
-.tash{
-    
+.question-wrapper.read .question-content .user{
+    background: var(--grey-blue);
+
 }
